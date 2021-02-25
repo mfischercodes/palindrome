@@ -13,7 +13,7 @@ user_input = split_users_input()
 
 for word in user_input:
     inversed_word = ''
-
+    #inversed_word = word[::-1]
     for i in range(len(word)):
         inversed_word += word[-i-1]
 
